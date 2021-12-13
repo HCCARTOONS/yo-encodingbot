@@ -31,10 +31,10 @@ async def start(event):
     await event.reply(
         f"Hi `{event.sender.first_name}`\nThis is A Bot  Which Can Encode Videos.\nEncode Size of Videos in 720p\nBot by @TAStark.",
         buttons=[
-            [Button.url("GROUP", url="https://t.me/DFUdiscuss")],
+            [Button.url("GROUP", url="https://t.me/jetbots_support")],
             [
-                Button.url("CHANNEL", url="https://t.me/doraemonupdates"),
-                Button.url("BOSS", url="http://t.me/TAStark"),
+                Button.url("CHANNEL", url="https://t.me/jetbots"),
+                Button.url("BOSS", url="http://t.me/jettastic"),
             ],
         ],
     )
