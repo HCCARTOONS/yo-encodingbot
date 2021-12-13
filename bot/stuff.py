@@ -29,7 +29,7 @@ async def up(event):
 
 async def start(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`\nThis is A Bot  Which Can Encode Videos.\nEncode Size of Videos in 720p\nBot by @TAStark.",
+        f"Hi `{event.sender.first_name}`\nThis is A Bot  Which Can Encode Videos Only For My Master.\nEncode Size of Videos in 720p\nBot by @HC_CARTOONS",
         buttons=[
             [Button.url("GROUP", url="https://t.me/jetbots_support")],
             [
